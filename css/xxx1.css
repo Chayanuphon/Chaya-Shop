@@ -1,0 +1,21 @@
+/* เปลี่ยนรูปภาพเมื่อ hover */
+.col:hover img {
+    transform: scale(1.1); /* ขยายรูปภาพเมื่อ hover */
+    transition: transform 0.3s ease; /* ตั้งค่าเวลาในการเปลี่ยนแปลง */
+  }
+  
+  /* เปลี่ยนสีพื้นหลังของการ์ดเมื่อ hover */
+  .col:hover .card {
+    background-color: #f0f0f0; /* เปลี่ยนเป็นสีที่ต้องการ */
+    transition: background-color 0.3s ease; /* เพิ่ม transition สำหรับพื้นหลัง */
+  }
+  
+  /* เปลี่ยนสีปุ่มเมื่อ hover */
+  .col .btn:hover {
+    background-color: #007bff; /* สีพื้นหลังปุ่มเมื่อ hover */
+    color: #fff; /* สีตัวอักษร */
+    border-color: #007bff; /* สีเส้นขอบ */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  
